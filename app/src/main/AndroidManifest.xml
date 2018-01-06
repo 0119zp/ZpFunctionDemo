@@ -3,6 +3,7 @@
     package="zp.com.zpfunctiondemo">
 
     <application
+        android:name=".ZpApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -18,9 +19,9 @@
         </activity>
 
         <!-- 系统功能 start-->
-        <activity android:name=".system.activity.ZpSystemActivity"/>
-
-
+        <activity android:name=".system.activity.ZpSystemActivity" />
+        <!-- 手机摇一摇 -->
+        <activity android:name=".system.activity.ZpSystemRockActivity" />
 
         <!-- 系统功能 end-->
 

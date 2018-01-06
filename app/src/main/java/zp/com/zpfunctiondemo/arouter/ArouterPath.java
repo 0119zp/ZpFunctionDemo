@@ -7,6 +7,9 @@ package zp.com.zpfunctiondemo.arouter;
 
 public class ArouterPath {
 
-    public static final String SYSTEM_PAGE = "system_page";
+    // 系统功能页面
+    public static final String SYSTEM_PAGE = "/system/system_page";
+    // 手机摇一摇页面
+    public static final String SYSTEM_ROCK_PAGE = "/system/system_rock_page";
 
 }
