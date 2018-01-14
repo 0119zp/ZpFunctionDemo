@@ -16,6 +16,9 @@ public class ArouterPath {
 
     // 自定义功能
     public static final String CUSTOM_PAGE = "/custom/custom_page";
+    // viewpager tab
+    public static final String CUSTOM_VIEWPAGE_PAGE = "/custom/custom_viewpage_page";
+
 
 
 }

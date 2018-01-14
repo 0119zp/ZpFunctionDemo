@@ -27,6 +27,8 @@
 
         <!-- 自定义功能 start -->
         <activity android:name=".custom.activity.ZpCustomActivity"/>
+        <!-- viewpage tab -->
+        <activity android:name=".custom.activity.ZpPagerActivity"/>
 
         <!-- 自定义功能 end -->
 
