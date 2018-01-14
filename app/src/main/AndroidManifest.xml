@@ -25,6 +25,11 @@
 
         <!-- 系统功能 end-->
 
+        <!-- 自定义功能 start -->
+        <activity android:name=".custom.activity.ZpCustomActivity"/>
+
+        <!-- 自定义功能 end -->
+
 
     </application>
 

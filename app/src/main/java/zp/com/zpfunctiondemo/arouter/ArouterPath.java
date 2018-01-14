@@ -12,4 +12,10 @@ public class ArouterPath {
     // 手机摇一摇页面
     public static final String SYSTEM_ROCK_PAGE = "/system/system_rock_page";
 
+
+
+    // 自定义功能
+    public static final String CUSTOM_PAGE = "/custom/custom_page";
+
+
 }

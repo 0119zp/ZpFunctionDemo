@@ -24,5 +24,11 @@ public class MainActivity extends AppCompatActivity {
         ARouter.getInstance().build(ArouterPath.SYSTEM_PAGE).navigation();
     }
 
+    /**
+     * 自定义功能
+     */
+    public void setCustom(View view) {
+        ARouter.getInstance().build(ArouterPath.CUSTOM_PAGE).navigation();
+    }
 
 }
